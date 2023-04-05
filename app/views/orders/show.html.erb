@@ -1,8 +1,10 @@
 <section class="orders-show">
+
 <header class="page-header">
 <h1>Order #<%= @order.id %></h1>
+<h4>Thank you for your order!</h4>
+<h5>Order reciept will be sent to: <%= @order.email %> </h5>
 </header>
-
 
 <div class="order-summary jumbotron">
  <div class="panel panel-default items">
@@ -36,8 +38,6 @@
 
 
 
-  <p>Order reciept will be sent to: <%= @order.email %> </p>
-  <h4>Thank you for your order!</h4>
   </div>
 
   <%= link_to "Continue Shopping", root_path, class: 'btn btn-lg btn-primary' %>
