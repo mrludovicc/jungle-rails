@@ -13,7 +13,10 @@ Rails.application.routes.draw do
   end
 
   resources :orders, only: [:create, :show]
-
+  resources :users, only: [:new, :create]
+  resources :sessions, only: [:new, :create, :destroy]
+  delete 'logout', to: 'sessions#destroy', as: :logout
+  
   namespace :admin do
     root to: 'dashboard#show'
     resources :categories, only: [:create, :index, :new]
