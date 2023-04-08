@@ -42,7 +42,7 @@
 </style>
 
 <section>
-  <%= form_tag '/users/new' do %>
+  <%= form_tag '/sessions' do %>
     <div class="login-form">
       <h1 class="login-title">Login</h1>
       <label for="email">Email:</label>
@@ -50,6 +50,8 @@
       <label for="password">Password:</label>
       <%= password_field_tag :password, nil, class: 'login-input' %>
       <%= submit_tag "Submit", class: 'login-submit' %>
+      <br>
+      <h5> Not registered? <a href="/users/new">Signup now!</a></h5>
     </div>
   <% end %>
 </section>
