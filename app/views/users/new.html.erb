@@ -1,0 +1,59 @@
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  .signup-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    max-width: 400px;
+    margin: 50px auto;
+  }
+  .signup-input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    font-size: 16px;
+    color: #333;
+  }
+  .signup-submit {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .signup-submit:hover {
+    background-color: #3e8e41;
+  }
+  .signup-title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+</style>
+
+<section>
+<%= form_for :user, url: '/sessions/new' do |f| %>
+  <div class="signup-form">
+    <h1 class="signup-title">Signup!</h1>
+    <%= f.label :name %>
+    <%= f.text_field :name, class: 'signup-input' %>
+    <%= f.label :email %>
+    <%= f.text_field :email, class: 'signup-input' %>
+    <%= f.label :password %>
+    <%= f.password_field :password, class: 'signup-input' %>
+    <%= f.label :password_confirmation %>
+    <%= f.password_field :password_confirmation, class: 'signup-input' %>
+    <%= f.submit "Submit", class: 'signup-submit' %>
+  </div>
+<% end %>
+</section>
