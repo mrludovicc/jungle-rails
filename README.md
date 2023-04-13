@@ -2,6 +2,15 @@
 
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
 
+## Screenshots
+![Homepage](https://github.com/trickstyle89/jungle-rails/blob/master/app/assets/images/HomePage.png)
+
+![Products](https://github.com/trickstyle89/jungle-rails/blob/master/app/assets/images/Products.png)
+
+![Payment](https://github.com/trickstyle89/jungle-rails/blob/master/app/assets/images/Card%20Transaction.png)
+
+![Admin](https://github.com/trickstyle89/jungle-rails/blob/master/app/assets/images/Admin%20Categories.png)
+
 ## Setup
 
 1. Run `bundle install` to install dependencies
@@ -25,7 +34,18 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Dependencies
 
-- Rails 6.1 [Rails Guide](http://guides.rubyonrails.org/v6.1/)
+- Rails 6.1 Rails Guide
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+- Cypress 9.7.0
+- Webpack-Dev-Server 3.11.2
+
+## Tests
+
+Cypress 9.7.0
+
+- RSpec
+- Stripe
+- Use Credit Card # 4111 1111 1111 1111 for testing success scenarios.
+- More information in their docs: https://stripe.com/docs/testing#cards
