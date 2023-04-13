@@ -3,13 +3,13 @@
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
 
 ## Screenshots
-![Homepage](https://github.com/trickstyle89/jungle-rails/blob/master/app/assets/images/HomePage.png)
+![Homepage](./home-page.png)
 
-![Products](https://github.com/trickstyle89/jungle-rails/blob/master/app/assets/images/Products.png)
+![Products](./products.png)
 
-![Payment](https://github.com/trickstyle89/jungle-rails/blob/master/app/assets/images/Card%20Transaction.png)
+![Payment](./payment.png)
 
-![Admin](https://github.com/trickstyle89/jungle-rails/blob/master/app/assets/images/Admin%20Categories.png)
+![My cart](./myCart.png)
 
 ## Setup
 
