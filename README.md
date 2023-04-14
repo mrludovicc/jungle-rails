@@ -7,7 +7,7 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 
 ![Products](https://github.com/mrludovicc/jungle-rails/raw/master/products.png)
 
-![Payment](https://github.com/mrludovicc/jungle-rails/raw/master/payment.png)
+![Payment feature](https://github.com/mrludovicc/jungle-rails/raw/master/payment.png)
 
 ![My cart](https://github.com/mrludovicc/jungle-rails/raw/master/myCart.png)
 
